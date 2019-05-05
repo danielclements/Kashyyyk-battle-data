@@ -1,0 +1,233 @@
+/*Background images*/
+
+.background-container {
+    background: url(images/kbackground.png) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.background-container-2 {
+    background: url(images/BG2.png) no-repeat center fixed;
+    background-size: cover;
+    height: 80vh;
+
+
+}
+
+
+.alpha-04 {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+/* Navbar*/
+
+body {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+
+
+}
+
+.Nav-container {}
+
+.left {
+    float: left;
+    padding-top: 25px;
+
+}
+
+.logo {
+    display: inline-block;
+    /*border: white solid 1px;*/
+    font-family: Gugi, sans-serif;
+    font-size: 35px;
+
+    border-bottom: 0px;
+    border-top: 0px;
+
+}
+
+.logo p {
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+
+.right {
+    float: right;
+    padding-top: 25px;
+}
+
+.left-link {
+    display: inline;
+    font-family: Gugi, sans-serif;
+    color: white;
+    padding: 15px;
+
+}
+
+.right-link {
+    display: inline;
+    font-family: Gugi, sans-serif;
+    color: white;
+    padding: 15px
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/*Header*/
+
+.header-wrapper {
+    margin: 200px 160px;
+    text-align: center;
+}
+
+
+
+.header-wrapper h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header-buttons {
+
+    display: inline;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.button {
+    background-color: Rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 7px;
+    text-align: center;
+    border-color: grey;
+}
+
+.button-header {
+    width: 99px;
+    height: 35px;
+
+}
+
+
+.header-buttons button:hover {
+    border-color: rgba(59, 170, 115, 0.3);
+    color: #659b73;
+    box-shadow: 0px 0px 15px rgba(59, 170, 115, 0.6)
+}
+
+/* mid page images  */
+
+.images-wrapper {
+    height: 200px;
+    text-align: center;
+    border: solid #659b73 4px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+
+
+}
+
+.img {
+    transition: all .5s;
+    height: 200px;
+    width: 33.3333333333%;
+    z-index: 2;
+    box-shadow: inset 0px 0px 15px #000;
+}
+
+.img p {
+
+    color: black;
+    font-family: Gugi, sans-serif;
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.img1 {
+    /*width: 33.33%;*/
+    /*height: 200px;*/
+    background: url(images/beach.jpg) no-repeat center center;
+    background-size: cover;
+    float: left;
+}
+
+.img3 {
+    /*width: 33.33%;*/
+    /*height: 200px;*/
+    background: url(images/spare.png) no-repeat center center;
+    background-size: cover;
+    float: right;
+
+}
+
+.img2 {
+    background: url(images/img-2.jpg) no-repeat center center;
+    background-size: cover;
+    display: inline-block;
+    margin: 0 auto;
+
+
+
+}
+
+.img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px #659b73;
+}
+
+/*info section*/
+
+.info-container{
+    float: left;
+    padding-top: 15px;
+}
+.info-para {
+    margin: 0px;
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    width: 630px;
+    float: left;
+    padding-left: 25px;
+}
+
+
+.alpha-04 h1 {
+    color: #b8b9ba;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.youtube-video-walkthrough{
+    float: right;
+    margin-right: 15px;
+    border: solid #659b73 3px;
+}
+
+
+/*    random color pickers */
+
+.kashyyyk {
+    color: #659b73;
+}
